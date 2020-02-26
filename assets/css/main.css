@@ -899,6 +899,9 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 
 		ul.icons li {
@@ -1660,3 +1663,76 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+/*MY EDITS TO CONTACT INFO*/
+	.contact-info {
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		width: 100%;
+		padding: 0;
+	}	
+
+	.card {
+		padding: 0 10px;
+		margin: 0;
+		width: 10rem;
+		height: 150px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		cursor: pointer;
+		border-radius: 2%;
+	}
+
+	.card-icon {
+		font-size: 25px;
+		background:  #57606f;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		line-height: 60px;
+		border-radius: 50%;
+		transition: 0.3s linear;
+	}
+
+	.card:hover .card-icon{
+		background: none;
+		transform: scale(1.6);
+	}
+
+	.card #ptagcontact{
+		margin-top: 20px;
+		font-weight: 300;
+		font-size: 15px;
+		letter-spacing: 2px;
+		max-height: 0;
+		opacity: 0;
+		transition: 0.3s linear;
+	}
+
+	.card:hover #ptagcontact {
+		max-height: 40px;
+		opacity: 1;
+	}
+
+	@media screen and (max-width:800px) {
+		.contact-info{
+			flex-direction: column;	
+		}
+
+		.card {
+			width: 100%;
+			max-width: 300px;
+			margin: 0;
+		}
+	}
+
+
+
+
+
+
+		
