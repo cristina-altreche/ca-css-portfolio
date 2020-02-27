@@ -613,7 +613,7 @@ input, select, textarea {
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
-			line-height: 1;
+			line-height: 0;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
@@ -624,7 +624,7 @@ input, select, textarea {
 		}
 
 		.icon:before {
-			line-height: inherit;
+			line-height: 0;
 		}
 
 		.icon.solid:before {
@@ -1258,7 +1258,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#wrapper {
-				padding: 1rem;
+				padding: 2rem;
 			}
 
 		}
@@ -1572,7 +1572,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 2.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 33rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1695,7 +1695,7 @@ input, select, textarea {
 		align-items: center;
 		justify-content: space-evenly;
 		width: 100%;
-		padding: 0;
+		padding: 0 20px 0 20px;
 	}	
 
 	.card {
@@ -1712,11 +1712,11 @@ input, select, textarea {
 	}
 
 	.card-icon {
-		font-size: 40px;
+		font-size: 30px;
 		width: 60px;
 		height: 60px;
 		text-align: center;
-		line-height: 60px;
+		line-height: 50px;
 		border-radius: 50%;
 		transition: 0.3s linear;
 	}
@@ -1729,7 +1729,7 @@ input, select, textarea {
 	.card #ptagcontact{
 		margin-top: 8px;
 		font-weight: 300;
-		font-size: 13px;
+		font-size: 12px;
 		letter-spacing: 2px;
 		max-height: 0;
 		transition: 0.3s linear;
@@ -1754,6 +1754,16 @@ input, select, textarea {
 			width: 100%;
 			max-width: 300px;
 			margin: 0;
+		}
+	}
+
+	@media screen and (min-width:1680px) {
+		.card-icon{
+			font-size: 35px;
+		}
+
+		.card #ptagcontact {
+			font-size: 15px;
 		}
 	}
 
