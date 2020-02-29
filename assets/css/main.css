@@ -1765,21 +1765,25 @@ input, select, textarea {
 		.card #ptagcontact {
 			font-size: 15px;
 		}
+
+
 	}
 
 /*Skills - My edits*/
 /*2nd Rough Draft Skill Bar*/
 .sk-container {
+	width: 100%;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 15px 20% 15px 20%;
+	padding: 15px 0 15px 0;
 }
 
 .sk-container img {
 	width: 60px;
-	height: 70px;
+	height: 60px;
+	padding-left: 0;
 	display: flex;
 	align-self: center;
 }
@@ -1789,25 +1793,32 @@ ul.sk-points {
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
-	padding-left: 15px;
+	padding-left: .8rem;
+	padding-right: .8rem;
 }
 
 ul.sk-points li {
-	font-size: 45px;
+	font-size: 40px;
 	padding-left:0;
 	text-shadow: 0 0 1.8px white;
 }	
 	.css-one,
 	.css-two,
-	.css-three {
+	.css-three,
+	.css-four {
 		color: #ebeb35;
 	}
-	.css-four,
-	.css-five {
+	.css-five,
+	.css-six{
 		opacity: 1;            
 		color: rgba(0, 0, 0, 0.80);
 		-webkit-text-stroke: 1px #252524;
 	}
+.sk-result {
+	margin-bottom: 0;
+}
+
+
 
 
 
