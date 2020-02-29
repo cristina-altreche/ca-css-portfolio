@@ -1768,107 +1768,49 @@ input, select, textarea {
 	}
 
 /*Skills - My edits*/
-
-.skill-row {
-	padding: 15px 20px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	max-width: 100;
-}
-
-.skill-image {
-	display: flex;
-	justify-content: center;
-	max-width: 12%;
-}
-
-/*.points {
-	background: red;
-	width: 400px;
-	height: 60px;
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	padding: 0 10px;
-}*/
-
-ul.skills {
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: center;
-	padding-left: 0;
-	margin-bottom: 0;
-	
-}
-
-li.skill-li {
-	list-style: none;
-	padding-left: 0;
-	font-size: 4vw;
-	text-shadow: 0 0 1.5px white;
-}
-	#point-four,
-	#point-five {
-		opacity: 1;            
-		color: rgba(0, 0, 0, 0.75);
-	}
-	#point-one,
-	#point-two,
-	#point-three {
-		color: #f5f058;
-		border-color: white;
-	}
-
 /*2nd Rough Draft Skill Bar*/
 .sk-container {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 10%;
+	padding: 15px 20% 15px 20%;
 }
 
 .sk-container img {
-	width: 50px;
-	height: 60px;
+	width: 60px;
+	height: 70px;
 	display: flex;
 	align-self: center;
-}
-
-.sk-bar {
-	background: lightpink;
-	border-radius: 3.5px;
-	width: 100%;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 }
 
 ul.sk-points {
 	margin: 0;
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-evenly;
+	padding-left: 15px;
 }
 
 ul.sk-points li {
 	font-size: 45px;
-	padding-left: 0;
+	padding-left:0;
 	text-shadow: 0 0 1.8px white;
 }	
 	.css-one,
 	.css-two,
 	.css-three {
-		color: #f5f058;
-		border-color: white;
+		color: #ebeb35;
 	}
 	.css-four,
 	.css-five {
 		opacity: 1;            
-		color: rgba(0, 0, 0, 0.65);
+		color: rgba(0, 0, 0, 0.80);
+		-webkit-text-stroke: 1px #252524;
 	}
+
+
+
 
 
 
