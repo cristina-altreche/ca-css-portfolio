@@ -1630,7 +1630,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main article {
-				padding: 3.5rem 2rem 0.5rem 2rem ;
+				padding: 3.5rem 2rem 2rem 2rem ;
 			}
 
 				#main article .close:before {
@@ -1646,7 +1646,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#main article {
-				padding: 3rem 1.5rem 0.5rem 1.5rem ;
+				padding: 3rem 1.5rem 1.5rem 1.5rem ;
 			}
 
 		}
@@ -1693,9 +1693,9 @@ input, select, textarea {
 	.contact-info {
 		display: flex;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		width: 100%;
-		padding: 0 20px 0 20px;
+		padding:0;
 	}	
 
 	.card {
@@ -1743,6 +1743,11 @@ input, select, textarea {
 	#icon-header {
 		text-transform: uppercase;
 		text-align: center;
+		margin-bottom: 1.8rem;
+	}
+
+	#hr-contact {
+		margin: 1rem 0 2.3rem 0;
 	}
 
 	@media screen and (max-width:700px) {
@@ -1803,7 +1808,7 @@ input, select, textarea {
 }
 
 .css {
-	width: 65%;
+	width: 70%;
 	animation: css 2s;
 }
 
@@ -1813,7 +1818,7 @@ input, select, textarea {
 }
 
 .jquery {
-	width: 45%;
+	width: 10%;
 	animation: jquery 2s;
 }
 
@@ -1831,7 +1836,7 @@ input, select, textarea {
 		width: 0%;
 	}
 	100% {
-		width: 65%;
+		width: 70%;
 	}
 }
 
@@ -1849,112 +1854,9 @@ input, select, textarea {
 		width: 0%;
 	}
 	100% {
-		width: 45%;
+		width: 10%;
 	}
 }
-
-
-
-
-
-/*Skills - My edits*/
-/*2nd Rough Draft Skill Bar*/
-/*.sk-container {
-	width: 100%;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
-	padding: 15px 60px 15px 60px;
-}
-
-.sk-container img {
-	width: 50px;
-	height: 50px;
-	padding-left: .5rem;
-	display: flex;
-	align-self: center;
-}
-
-ul.sk-points {
-	margin: 0;
-	width: 100%;
-	display: flex;
-	justify-content: space-evenly;
-	padding-left: .5rem;
-	padding-right: .5rem;
-}
-
-ul.sk-points li {
-	font-size: 30px;
-	padding-left:0;
-	text-shadow: 0 0 1.8px white;
-}	
-	.css-one,
-	.css-two,
-	.css-three,
-	.css-four {
-		color: #fff;
-	}
-	.css-five,
-	.css-six{
-		opacity: 1;            
-		color: rgba(0, 0, 0, 0.80);
-		-webkit-text-stroke: 1px #252524;
-	}
-.sk-result {
-	margin-bottom: 0;
-	padding-right: .5rem;
-}
-
-@media screen and (max-width:1680px) {
-	.sk-container img {
-		width: 40px;
-		height: 40px;
-	}
-	ul.sk-points li {
-		font-size: 23px;
-	}
-	.sk-result {
-		font-size: 16px;
-	}	
-}
-
-@media screen and (max-width:700px) {
-	.sk-container img {
-		width: 35px;
-		height: 35px;
-	}
-	.ul-sk-points {
-		padding-left: 0;
-		padding-right: 0;
-	}
-	ul.sk-points li {
-		font-size: 22px;
-	}
-	.sk-result {
-		font-size: 15px;
-	}	
-}
-
-@media screen and (max-width:420px) {
-	.sk-container img {
-		width: 40px;
-		height: 40px;
-		padding-left: 0;
-	}
-	ul.sk-points li {
-		font-size: 20px;
-	}
-	.sk-result {
-		font-size: 12px;
-		padding-right: 0;
-	}	
-}*/
-
-
-
-
 
 
 
